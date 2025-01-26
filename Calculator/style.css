@@ -1,0 +1,26 @@
+.calculator-grid{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10%;
+    border-radius: 30px;
+    grid-gap: 10px;
+    margin: 5%;
+}
+textarea {
+    grid-column: span 4;
+    font-family: 'DM mono', monospace;
+    font-size: 25px;
+    text-align: start;
+    background-color: #fad3cb;
+    padding: 15px;
+    border-radius: 10px;
+}
+button:hover, .calculator-grid button:nth-child(n+18):hover {
+    background-color: #440b15;
+    color: white;
+    transition: 0.2s;
+  }
+  .calculator-grid button:nth-child(n+18) {
+    background-color: tomato;
+  }
