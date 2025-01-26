@@ -1,1 +1,1 @@
-this is an pixel painting program like "paint"
+this is a pixel painting program like "paint"
